@@ -1,4 +1,4 @@
-import solutions.easy.wordpattern as word_pattern
+import solutions.easy.word_pattern as word_pattern
 
 def test_different_lengh_variables_return_false():
     assert word_pattern.solution("abbaa", "dog dog dog dog") == False
